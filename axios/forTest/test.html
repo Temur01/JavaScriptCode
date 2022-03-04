@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn"><i>iiii</i>Bu button</button>
+    <input type="text" value="text" id="inp" />
+    <script>
+      btn.addEventListener("submit", (event) => {
+        const p = document.createElement("p");
+        const p2 = document.createElement("p");
+        p.textContent = inp.value;
+        p2.innerHTML = inp.value;
+        document.body.append(p, p2);
+      });
+      btn.onclick = (event) => {
+        console.log(btn.onclick);
+        const p = document.createElement("p");
+        const p2 = document.createElement("p");
+        p.textContent = inp.value;
+        p2.innerHTML = inp.value;
+        document.body.append(p, p2);
+      };
+    </script>
+  </body>
+</html>

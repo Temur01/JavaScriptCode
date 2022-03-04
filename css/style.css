@@ -1,0 +1,26 @@
+.col-8.my-2.bordered {
+  background-color: #343535;
+  padding: 10px;
+  color: #bc4c29;
+}
+
+.col {
+  color: white !important;
+}
+
+.col-10.offset-1.my-2 {
+  background-color: #343535 !important;
+  border-radius: 12px !important;
+}
+
+.text-light.fs-6 {
+  word-break: break-all;
+}
+
+.rounded.d-flex.col-11 {
+  outline: none !important;
+  border: none !important;
+  border-radius: 8px !important;
+}
+
+/*# sourceMappingURL=style.css.map */
